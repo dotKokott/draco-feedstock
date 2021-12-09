@@ -1,5 +1,5 @@
 {% set name = "draco" %}
-{% set version = "1.4.3" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/google/draco/archive/{{ version }}.tar.gz
-  sha256: 02a620a7ff8388c57d6f6e0941eecc10d0c23ab47c45942fb52f64a6245c44f5
+  sha256: 81a91dcc6f22170a37ef67722bb78d018e642963e6c56e373560445ce7468a20
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win and vc<14]
 
 requirements:
