@@ -25,6 +25,7 @@ requirements:
 test:
   commands:
     - draco_encoder -h
+    - draco_transcoder -h
 
 about:
   home: https://github.com/google/draco/
